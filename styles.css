@@ -1,5 +1,10 @@
+body{
+    background-image: url("world-g973df17e1_1280.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
 .navBar{
-    background-color: blueviolet;
+    background-color: white;
     height: 4.5rem;
     text-align: center;
 }
@@ -17,14 +22,17 @@
 
 .welcomeMessage h1 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
+    color: white;
     border-right: .15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    margin: auto; /* Gives that scrolling effect as the typing happens */
+    margin-top: 15rem;
     letter-spacing: .15em; /* Adjust as needed */
     width: 30%;
     text-align: center;
+    font-size: 3rem;
     animation: 
-      type 3.5s steps(40, end),
+      type 3.5s steps(40, end) infinite,
       cursor .75s step-end infinite;
   }
   
@@ -34,11 +42,11 @@
     /* to { width:100% } */
     to { width:30% }
   }
-  
+
   /* The typewriter cursor effect */
   @keyframes cursor {
     from, to { border-color: transparent }
-    50% { border-color: black; }
+    50% { border-color: white;  }
   }
 /* ul {
     list-style-type: none;
