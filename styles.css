@@ -14,6 +14,32 @@
 .navBar-button:hover{
     background-color: antiquewhite;
 }
+
+.welcomeMessage h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    width: 30%;
+    text-align: center;
+    animation: 
+      type 3.5s steps(40, end),
+      cursor .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes type {
+    from { width: 0 }
+    /* to { width:100% } */
+    to { width:30% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes cursor {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  }
 /* ul {
     list-style-type: none;
     margin: 0;
