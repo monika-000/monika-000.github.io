@@ -1,8 +1,6 @@
-let buttons = document.getElementsByClassName("navBar-button");
-let cards = document.getElementsByClassName("navbar-card");
-
- function displayCard(sectionName){
-    for(let i = 0; i< buttons.length; i++){
+function displayCard(sectionName){
+    let cards = document.getElementsByClassName("navbar-card");
+    for(let i = 0; i< cards.length; i++){
            cards[i].style.display = "none"
     }
    document.getElementById(sectionName).style.display ="block";
