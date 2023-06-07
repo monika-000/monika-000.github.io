@@ -20,6 +20,16 @@ body{
     background-color: antiquewhite;
 }
 
+.navbar-card{
+    display: none;
+    position: relative;
+    margin: auto;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    background-color: white;
+    height: 100%;
+}
+
 .welcomeMessage h1 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     color: white;
@@ -48,32 +58,4 @@ body{
     from, to { border-color: transparent }
     50% { border-color: white;  }
   }
-/* ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-  }
-  
-  li {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-   */
-  /* li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  } */
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: yellow;
-  }
+
