@@ -45,6 +45,9 @@ body{
       type 3.5s steps(40, end) infinite,
       cursor .75s step-end infinite;
   }
+  #checkbox{
+    display:none;
+  }
   
   /* The typing effect */
   @keyframes type {
