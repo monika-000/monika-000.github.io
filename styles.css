@@ -34,9 +34,7 @@ body{
 .navbar-card{
     display: none;
     position: relative;
-    margin: auto; 
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin: 10rem 20rem auto 20rem; 
     background-color: white;
     height: 100%;
     text-align: center;
