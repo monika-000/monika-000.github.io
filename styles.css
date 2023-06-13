@@ -43,7 +43,8 @@ body{
     animation: slide 2s
 }
 
-.welcomeMessage h1 {
+#welcomeMessage h1{
+    display: block;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     color: white;
     border-right: .15em solid orange; /* The typwriter cursor */
@@ -58,10 +59,7 @@ body{
       type 3.5s steps(40, end) infinite,
       cursor .75s step-end infinite;
   }
-  #checkbox{
-    display:none;
-  }
-  
+
   /* The typing effect */
   @keyframes type {
     from { width: 0 }
