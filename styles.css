@@ -40,6 +40,9 @@ body{
     text-align: center;
     animation: slide 2s
 }
+.col{
+  width: 50%;
+}
 
 #welcomeMessage h1{
     display: block;
