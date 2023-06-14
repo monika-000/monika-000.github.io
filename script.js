@@ -9,5 +9,6 @@ function displayCard(sectionName){
         //modal[i].style.display = "none"
     }
     welocmeMessage.style.display = "none"
-    document.getElementById(sectionName).style.display ="block";
+    // document.getElementById(sectionName).style.display ="block";
+    document.getElementById(sectionName).style.display ="flex";
 }
