@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size:100%;
 }
+
 .navBar{
     background-color: white;
     height: 4.5rem;
@@ -18,38 +19,31 @@ body{
 .navBar-button:hover{
     background-color: antiquewhite;
 }
-/* .modal{
-    display: none; 
-    position: fixed;
-    z-index: 1; 
-    padding-top: 100px; 
-    left: 0;
-    top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.4); 
-} */
 .navbar-card{
-    display: none;
+    display: none; 
     position: relative;
-    margin: 10rem 20rem auto 20rem; 
+    margin: 5rem 20rem auto 20rem; 
     background-color: white;
     height: 100%;
+    padding:3rem;
     text-align: center;
-    animation: slide 2s;
+    animation: slide 1s;
 }
-.col{
+ .col{
   flex: 1;
   float: center;
-}
+} 
 
 #avatar{
-  width: 70%;
+  max-width: 100%;  
+/* height: auto;*/  
   transform: rotateY(180deg);
 }
-
+/* #background{
+  background-image: url("world-g973df17e1_1280.jpg");
+  height: 700px;
+  background-size: 100%;
+} */
 #welcomeMessage h1{
     display: block;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -86,6 +80,6 @@ body{
   }
 
   @keyframes slide {
-    100% { transform: translateY(20%)};
+    100% { transform: translateY(5%)};
   }
 
