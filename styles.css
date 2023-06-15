@@ -1,11 +1,16 @@
 body{
-    background-image: url("world-g973df17e1_1280.jpg");
+  background-color: #0f1f52;
+    /* background-image: url("world-g973df17e1_1280.jpg");
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:100%; */
+}
+#header{
+  background-image: url("world-g973df17e1_1280.jpg");
+  height: 40rem;
 }
 
 .navBar{
-    background-color: white;
+    /* background-color: white; */
     height: 4.5rem;
     text-align: center;
 }
