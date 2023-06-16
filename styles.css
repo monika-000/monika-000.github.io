@@ -1,12 +1,18 @@
 body{
-  background-color: #0f1f52;
+  /* background-color: #0f1f52; */
+  /* background: rgb(11,11,12);
+  background: linear-gradient(90deg, rgba(11,11,12,1) 0%, rgba(51,59,61,1) 35%, rgba(153,167,168,1) 100%); */
+  font-family: Arial, Helvetica, sans-serif;
     /* background-image: url("world-g973df17e1_1280.jpg");
     background-repeat: no-repeat;
     background-size:100%; */
 }
 #header{
-  background-image: url("world-g973df17e1_1280.jpg");
-  height: 40rem;
+  background-image: url("bubbles-ge1732bf6a_640.jpg");
+  background-repeat: no-repeat;
+  background-size:100%;
+  height: 800px;
+  background-position-y: -300px;
 }
 
 .navBar{
@@ -17,10 +23,8 @@ body{
 .navBar-button{
     font-size: 1.5rem;
     height: 4.5rem;
-    /* width: 10rem; */
     text-decoration: none;
     padding: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
     line-height: 2;
     float:right;
@@ -36,7 +40,6 @@ body{
     position: relative;
     margin: 5rem 20rem auto 20rem; 
     background-color: white;
-    height: 100%;
     padding:3rem;
     text-align: center;
     animation: slide 1s;
@@ -69,7 +72,7 @@ body{
     text-align: center;
     font-size: 3rem;
     animation: 
-      type 3.5s steps(40, end) infinite,
+      type 5s steps(50, end) infinite,
       cursor .75s step-end infinite;
   }
 
