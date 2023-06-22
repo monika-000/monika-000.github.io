@@ -46,18 +46,25 @@
     text-align: center;
     animation: slide 1s;
 }
- .col{
+.box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height:400px;
+}
+ .col1{
+  background-image: url('./Avatar.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotateY(180deg);
   /* flex: 1;
   float: center; */
-  display: grid;
-  width: 50%;
 } 
 
-#avatar{
+/* #avatar{
   max-width: 100%;  
-/* height: auto;*/  
+/* height: auto;
   transform: rotateY(180deg);
-}
+} 
 /* #background{
   background-image: url("world-g973df17e1_1280.jpg");
   height: 700px;
