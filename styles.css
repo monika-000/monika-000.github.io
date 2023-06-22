@@ -42,23 +42,26 @@
     position: relative;
     margin: 5rem 20rem auto 20rem; 
     background-color: white;
-    padding:3rem;
-    text-align: center;
     animation: slide 1s;
 }
 .box{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  height:400px;
 }
  .col1{
-  background-image: url('./Avatar.png');
+  background-image: url('abstract-gcbfe26397_640.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  transform: rotateY(180deg);
   /* flex: 1;
   float: center; */
 } 
+.col2{
+  padding:3rem;
+}
+.col2 h2{
+  text-align: center;
+  margin-bottom: 1rem;
+}
 
 /* #avatar{
   max-width: 100%;  
