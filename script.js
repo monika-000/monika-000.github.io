@@ -11,4 +11,11 @@ function displayCard(sectionName){
     welocmeMessage.style.display = "none"
     // document.getElementById(sectionName).style.display ="block";
     document.getElementById(sectionName).style.display ="flex";
+
+    let btnClose = document.getElementById("btnClose");
+    btnClose.addEventListener('click', () => {
+        document.getElementById(sectionName).style.display ="none"  
+        welocmeMessage.style.display = "block"
+    })
 }
+
